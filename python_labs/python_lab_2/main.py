@@ -8,7 +8,7 @@ def main(inputString):
     # Remember to save the dictionary as a json file named "word-counts.json"
 
 
-    return None
+    return print(inputString)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser("Word Counter")
