@@ -21,7 +21,7 @@ def main(inputString):
             countDict[word] = 1
     
 
-    fpath = os.path.join(os.getcwd(), "word_counts.json")
+    fpath = os.path.join(os.getcwd(), "word-counts.json")
 
     with open(fpath, "w") as f:
         json.dump(countDict, f)
